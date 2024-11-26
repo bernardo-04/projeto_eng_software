@@ -24,5 +24,8 @@ class Main(ctk.CTk):
     self.header = Header(self)
     self.header.pack()
 
+    self.sidebar = SideBar(self)
+    self.sidebar.pack()
+
 app = Main()
 app.mainloop()
